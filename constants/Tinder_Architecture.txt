@@ -1,0 +1,24 @@
+TINDER ARCHITECTURE
+
+->Store Profile
+-->Images -(5 images per user)- images can be saved as a file or as a blob(binary large object)
+database gives us few extra guarantees., i.e. (
+    Mutability(), 
+    Transction guarantees(ACID properties), 
+    Indexes(to improve search capability),
+    access control)
+
+    we can save images as a file system as file system have many advantages
+    -> Faster
+    -> Cheaper
+    -> CDN allows fast access(as they will be static data)
+
+    profile_id, image_id, file_url
+
+
+->Recomended Matches
+-->Number of Active users
+
+->Note Matches
+
+-> Direct Messaging(when matched)
