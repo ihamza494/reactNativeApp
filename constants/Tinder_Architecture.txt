@@ -22,3 +22,8 @@ database gives us few extra guarantees., i.e. (
 ->Note Matches
 
 -> Direct Messaging(when matched)
+
+
+10/2/2023
+
+-> instagram system design architecture
